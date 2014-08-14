@@ -1,0 +1,89 @@
+body {
+	background-color: brown;
+	overflow: hidden;
+
+}
+
+img {
+	
+}
+.bluepage { 
+	background-color: #ccffff;
+	height: 650px;
+}
+
+.Appname {
+	text-align: right;
+	font-size: 26px;
+}
+
+.bluepage-content {
+	text-align: center;
+	font-family: Times;
+	font-size: 26px;
+}
+
+
+.question {
+	font-size: 30px;
+	font-family: Comic;
+	color: black;
+	text-align: center;
+}
+
+.box {
+	height: 20px;
+	width: 500px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: gray;
+	text-align: center;
+	font-family: Comic;
+	font-size: 20px;
+	margin: auto;
+	
+}
+
+
+
+.previous {
+	text-align:left;
+	font-size: 20px;
+}
+
+.next {
+	text-align: right;
+	font-size: 20px;
+}
+
+.exit-disclaimer {
+	text-align: center;
+}
+
+a:hover {
+	color: #ff0000;
+} 
+
+.disclaimer:hover {
+	color: #ff0000;
+
+}
+
+
+.disclaimer {
+	margin: auto;
+	font-size: 26px;
+	text-align: center;
+}
+
+.restart {
+	text-align: center;
+	font-size: 40px
+}
+
+.facts {
+	font-family: Comic; 
+	color: black; 
+	font-size: 12px; 
+	text-align: left;
+}

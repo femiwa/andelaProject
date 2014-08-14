@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<script type='text/javascript' src='jqueryui.js'></script>
+	<script type='text/javascript' src='jquery.js'></script>
+	<script type='text/javascript' src='script.js'></script>
+	<link type='text/css' rel='stylesheet' href='stylesheet.css' />
+	
+
+		<title>My App</title>
+
+</head>
+
+<body>
+
+	<div class="bluepage" data-role="page" id="index1">
+            <div>
+            	<h1 class="Appname" style="font-family:Chiller ;font-size:60px">De-bowlar</h1>
+            	<img src="file://C:/Users/user/Desktop/web%20project/images.png">
+            </div>
+
+            <div><br>
+                <p class="bluepage-content">
+                    <em>Save yourself a trip to the hospital</em></p>
+                <p class="bluepage-content"><em>Health workers are really getting scared</em></p>
+
+                <p class="bluepage-content"><br><a href="#index2" data-transition="flip" style="text-decoration: none;"><strong>Ascertain your status now</strong></a></p>          
+            </div>
+
+            <div class="disclaimer"><br>
+            	<a href="#disclaimer" data-transition="flip" style="text-decoration: none;color: black"><strong>Disclaimer!</strong></a>
+            </div>	
+					<script>
+ 						var now = new Date();
+
+						var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+						var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+						var date = ((now.getDate()<10) ? "0" : "")+ now.getDate(); 
+						function fourdigits(number)	{
+							return (number < 1000) ? number + 1900 : number;
+						}	today =  days[now.getDay()] + ", " + months[now.getMonth()] + " " + date + ", " + (fourdigits(now.getYear())) ; document.write(today);
+					</script>
+	</div>
+
+
+
+
+
+
+
+	
+	<div class="bluepage" data-role="page" id="index2" style="min-height: 130px;">
+        <div>
+            	<h1 class="Appname" style="font-family:Chiller ;font-size:60px">De-bowlar</h1>
+            	<img src="file://C:/Users/user/Desktop/web%20project/images.png">
+        </div>
+
+        <div>
+            <h2 class="question">Aching Head?</h2>
+
+            
+                <div>
+                	<ol>
+                		<li class="box" style="text-decoration: none;">My head doesn't ache at all</li><br>
+                		<li class="box" style="text-decoration: none;">Mild intermittent headache</li><br>
+                		<li class="box" style="text-decoration: none;">Severe headache lasting hours </li><br>
+                		<li class="box" style="text-decoration: none;">Migraine-like</li><br>
+                	</ol>
+                </div>
+            
+
+           
+        <div><br><br>
+
+                <div class="previous">
+                    <a href="#index1" data-transition="flip" style="text-decoration: none;"><button>Previous</button></a><br>
+                </div>
+
+                <div class="next">
+                    <a href="#index3" data-transition="flip" style="text-decoration: none;"><button>Next</button></a>
+                </div>
+            </div>
+        </div>
+        <script>
+ 						var now = new Date();
+
+						var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+						var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+						var date = ((now.getDate()<10) ? "0" : "")+ now.getDate(); 
+						function fourdigits(number)	{
+							return (number < 1000) ? number + 1900 : number;
+						}	today =  days[now.getDay()] + ", " + months[now.getMonth()] + " " + date + ", " + (fourdigits(now.getYear())) ; document.write(today);
+					</script>
+    </div>
+
+
+
+
+
+
+
+
+	<div class="bluepage" data-role="page" id="index3" style="min-height: 130px;">
+        <div>
+            	<h1 class="Appname" style="font-family:Chiller ;font-size:60px">De-bowlar</h1>
+            	<img src="file://C:/Users/user/Desktop/web%20project/images.png">
+            </div>
+
+        <div>
+            <h2 class="question">Having an unusual rise in body temperature?</h2>
+
+            
+                <div> 
+                	<ol>
+	                	<li class="box" style="text-decoration: none;">My body temperature is normal</li><br>
+	                	<li class="box" style="text-decoration: none;">My temperature is slightly above normal</li><br>
+	                	<li class="box" style="text-decoration: none;">Temperature intermittently hot</li><br>
+	                	<li class="box" style="text-decoration: none;">Body temperature so hot, it can boil water</li><br>
+	                </ol>
+	            </div>
+
+            
+
+            
+            <div>
+                <div class="previous"><a href="#index2" data-transition="flip" style="text-decoration: none;"><button>Previous</button></a></div>
+
+                <div class="next"><a href="#index4" data-transition="flip" style="text-decoration: none;"><button>Next</button></a></div>
+            </div>
+
+        </div>
+        <script>
+ 						var now = new Date();
+
+						var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+						var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+						var date = ((now.getDate()<10) ? "0" : "")+ now.getDate(); 
+						function fourdigits(number)	{
+							return (number < 1000) ? number + 1900 : number;
+						}	today =  days[now.getDay()] + ", " + months[now.getMonth()] + " " + date + ", " + (fourdigits(now.getYear())) ; document.write(today);
+					</script>
+    </div>
+
+
+
+
+
+
+
+
+
+     <div class="bluepage" data-role="page" id="index4" style="min-height: 130px;">
+        <div>
+            	<h1 class="Appname" style="font-family:Chiller ;font-size:60px">De-bowlar</h1>
+            	<img src="file://C:/Users/user/Desktop/web%20project/images.png">
+            </div>
+
+        <div>
+            <h2 class="question">Nature of your appetite lately?</h2>
+
+            
+                <div>
+                	<ol>
+	                	<li class="box" style="text-decoration: none;">Appetite so in tune, considering de-worming</li><br>
+	                	<li class="box" style="text-decoration: none;">Three linear meals do the trick daily </li><br>
+                		<li class="box" style="text-decoration: none;">I only eat after a thousand lines of code</li><br>
+                		<li class="box" style="text-decoration: none;">I eat once in two days</li><br>
+                	</ol>
+                </div>
+            
+
+            
+
+            <div>
+                <div class="previous"><a href="#index3" data-transition="flip" style="text-decoration: none;"><button>Previous</button></a></div>
+
+                <div class="next"><a href="#index5" data-transition="flip" style="text-decoration: none;"><button>Next</button></a></div>
+            </div>
+
+           
+        </div>
+        <script>
+ 						var now = new Date();
+
+						var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+						var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+						var date = ((now.getDate()<10) ? "0" : "")+ now.getDate(); 
+						function fourdigits(number)	{
+							return (number < 1000) ? number + 1900 : number;
+						}	today =  days[now.getDay()] + ", " + months[now.getMonth()] + " " + date + ", " + (fourdigits(now.getYear())) ; document.write(today);
+					</script>
+    </div>
+
+
+
+
+
+
+
+ <div class="bluepage" data-role="page" id="index5" style="min-height: 130px;">
+        <div>
+            	<h1 class="Appname" style="font-family:Chiller ;font-size:60px">De-bowlar</h1>
+            	<img src="file://C:/Users/user/Desktop/web%20project/images.png">
+            </div>
+
+        <div>
+            <h2 class="question">Nature and frequency of  bowel movement?</h2>
+
+            
+                <div class="box"><a href="#" style="text-decoration: none;">Normal normal </a></div><br>
+                <div class="box"><a href="#" style="text-decoration: none;">No movement in days </a></div><br>
+                <div class="box"><a href="#" style="text-decoration: none;">So watery, almost like effluent waste </a></div><br>
+                <div class="box"><a href="#" style="text-decoration: none;">So tough, almost like birth-giving </a></div><br>
+            
+
+            
+
+            <div>
+                <div class="previous"><a href="#index4" data-transition="flip" style="text-decoration: none;"><button>Previous</button></a></div>
+
+                <div class="next"><a href="#index6" data-transition="flip" style="text-decoration: none;"><button>Next</button></a></div>
+            </div>
+
+        
+        </div>
+        <script>
+ 						var now = new Date();
+
+						var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+						var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+						var date = ((now.getDate()<10) ? "0" : "")+ now.getDate(); 
+						function fourdigits(number)	{
+							return (number < 1000) ? number + 1900 : number;
+						}	today =  days[now.getDay()] + ", " + months[now.getMonth()] + " " + date + ", " + (fourdigits(now.getYear())) ; document.write(today);
+					</script>
+    </div>
+
+
+
+
+
+
+  <div class="bluepage" data-role="page" id="index6" style="min-height: 130px;">
+        <div>
+            	<h1 class="Appname" style="font-family:Chiller ;font-size:60px">De-bowlar</h1>
+            	<img src="file://C:/Users/user/Desktop/web%20project/images.png">
+            </div>
+
+        <div>
+            <h2 class="question">Itchiness of any sort?</h2>
+
+            
+                <div class="box"><a href="#" style="text-decoration: none;">No itchiness of any sort </a></div><br>
+                <div class="box"><a href="#" style="text-decoration: none;">Just in my hair, due to lice </a></div><br>
+                <div class="box"><a href="#" style="text-decoration: none;">Frequent itching all over</a></div><br>
+                <div class="box"><a href="#" style="text-decoration: none;">So bad!-craw-craw version </a></div><br>
+            
+
+            <p></p>
+
+            <div>
+                <div class="previous"><a href="#index5" data-transition="flip" style="text-decoration: none;"><button>Previous</button></a></div>
+
+                <div class="next"><a href="#index7" data-transition="flip" style="text-decoration: none;"><button>Next</button></a></div>
+            </div>
+
+           
+        </div>
+        <script>
+ 						var now = new Date();
+
+						var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+						var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+						var date = ((now.getDate()<10) ? "0" : "")+ now.getDate(); 
+						function fourdigits(number)	{
+							return (number < 1000) ? number + 1900 : number;
+						}	today =  days[now.getDay()] + ", " + months[now.getMonth()] + " " + date + ", " + (fourdigits(now.getYear())) ; document.write(today);
+					</script>
+    </div>
+
+
+
+
+
+
+
+ <div class="bluepage" data-role="page" id="index7" style="min-height: 130px;">
+        <div>
+            	<h1 class="Appname" style="font-family:Chiller ;font-size:60px">De-bowlar</h1>
+            	<img src="file://C:/Users/user/Desktop/web%20project/images.png">
+            </div>
+
+        <div>
+            <h2 class="question">Stomach pain?</h2>
+
+            
+                <div class="box"><a href="#" style="text-decoration: none;">None at all </a></div><br>
+                <div class="box"><a href="#" style="text-decoration: none;">Just normal worms going about their thing </a></div><br>
+                <div class="box"><a href="#" style="text-decoration: none;">Mild pains, ocassionally </a></div><br>
+                <div class="box"><a href="#" style="text-decoration: none;">Chronic pain, like some engine running in my stomach </a></div><br>
+            
+
+            <p></p>
+
+            <div>
+                <div class="previous"><a href="#index6" data-transition="flip" style="text-decoration: none;"><button>Previous</button></a></div>
+
+                <div class="next"><a href="#index8" data-transition="flip" style="text-decoration: none;"><button>Next</button></a></div>
+            </div>
+
+
+        </div>
+        <script>
+ 						var now = new Date();
+
+						var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+						var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+						var date = ((now.getDate()<10) ? "0" : "")+ now.getDate(); 
+						function fourdigits(number)	{
+							return (number < 1000) ? number + 1900 : number;
+						}	today =  days[now.getDay()] + ", " + months[now.getMonth()] + " " + date + ", " + (fourdigits(now.getYear())) ; document.write(today);
+					</script>
+    </div>
+
+
+
+
+
+
+
+ <div class="bluepage" data-role="page" id="index8" style="min-height: 130px;">
+        <div>
+            	<h1 class="Appname" style="font-family:Chiller ;font-size:60px">De-bowlar</h1>
+            	<img src="file://C:/Users/user/Desktop/web%20project/images.png">
+            </div>
+
+        <div>
+            <h2 class="question">Vomitting?</h2>
+
+            
+                <div class="box"><a href="#" style="text-decoration: none;">No nauseous feeling at all </a></div><br>
+                <div class="box"><a href="#" style="text-decoration: none;">Recurrent nauseous feeling, but no throwing up </a></div><br>
+                <div class="box"><a href="#" style="text-decoration: none;">With bile </a></div><br>
+                <div class="box"><a href="#" style="text-decoration: none;">With bile and blood </a></div><br>
+
+            <div>
+                <div class="previous"><a href="#index7" data-transition="flip" style="text-decoration: none;"><button>Previous</button></a></div>
+
+                <div class="next"><a href="#index9" data-transition="flip" style="text-decoration: none;"><button>Next</button></a></div>
+            </div>
+
+        </div>
+        <script>
+ 						var now = new Date();
+
+						var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+						var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+						var date = ((now.getDate()<10) ? "0" : "")+ now.getDate(); 
+						function fourdigits(number)	{
+							return (number < 1000) ? number + 1900 : number;
+						}	today =  days[now.getDay()] + ", " + months[now.getMonth()] + " " + date + ", " + (fourdigits(now.getYear())) ; document.write(today);
+					</script>
+    </div>
+
+
+
+
+
+
+<div class="bluepage" data-role="page" id="index9" style="min-height: 130px;">
+        <div>
+            	<h1 class="Appname" style="font-family:Chiller ;font-size:60px">De-bowlar</h1>
+            	<img src="file://C:/Users/user/Desktop/web%20project/images.png">
+            </div>
+
+        <div>
+            <h2 class="question">Coughing?</h2>
+
+            
+                <div class="box"><a href="#" style="text-decoration: none;">No coughing except when talking while eating </a></div><br>
+                <div class="box"><a href="#" style="text-decoration: none;">Very mild cough and occasionally </a></div><br>
+                <div class="box"><a href="#" style="text-decoration: none;">Frequent coughing, but unproductive(dry) </a></div><br>
+                <div class="box"><a href="#" style="text-decoration: none;">Cough so bad, it's whooping </a></div><br>
+
+            
+
+            <div>
+                <div class="previous"><a href="#index8" data-transition="flip" style="text-decoration: none;"><button>Previous</button></a></div>
+
+                <div class="next"><a href="#index10" data-transition="flip" style="text-decoration: none;"><button>Next</button></a></div>
+            </div>
+
+            
+        </div>
+        <script>
+ 						var now = new Date();
+
+						var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+						var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+						var date = ((now.getDate()<10) ? "0" : "")+ now.getDate(); 
+						function fourdigits(number)	{
+							return (number < 1000) ? number + 1900 : number;
+						}	today =  days[now.getDay()] + ", " + months[now.getMonth()] + " " + date + ", " + (fourdigits(now.getYear())) ; document.write(today);
+					</script>
+    </div>
+
+
+
+
+
+
+
+
+
+	<div class="bluepage" data-role="page" id="index10" style="min-height: 130px;">
+        <div>
+            	<h1 class="Appname" style="font-family:Chiller ;font-size:60px">De-bowlar</h1>
+            	<img src="file://C:/Users/user/Desktop/web%20project/images.png">
+            </div>
+
+        <div>
+            <h2 class="question">Muscle weakness?</h2>
+
+            
+                <div class="box"><a href="#" style="text-decoration: none;">Can't run a marathon like I used to </a></div><br>
+                <div class="box"><a href="#" style="text-decoration: none;">I can barely perform in bed </a></div><br>
+                <div class="box"><a href="#" style="text-decoration: none;">Getting up from bed takes longer </a></div><br>
+                <div class="box"><a href="#" style="text-decoration: none;">Can barely lift a leg </a></div><br>
+            
+
+           
+
+            <div>
+                <div class="previous"><a href="#index9" data-transition="flip" style="text-decoration: none;"><button>Previous</button></a></div>
+
+                <div class="next"><a href="#index11" data-transition="flip" style="text-decoration: none;"><button>Next</button></a></div>
+            </div>
+
+        
+        </div>
+        <script>
+ 						var now = new Date();
+
+						var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+						var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+						var date = ((now.getDate()<10) ? "0" : "")+ now.getDate(); 
+						function fourdigits(number)	{
+							return (number < 1000) ? number + 1900 : number;
+						}	today =  days[now.getDay()] + ", " + months[now.getMonth()] + " " + date + ", " + (fourdigits(now.getYear())) ; document.write(today);
+					</script>
+    </div>
+
+
+
+
+
+
+
+
+<div class="bluepage" id="index11" style="min-height: 130px;">
+        <div>
+            	<h1 class="Appname" style="font-family:Chiller ;font-size:60px">De-bowlar</h1>
+            	<img src="file://C:/Users/user/Desktop/web%20project/images.png">
+            </div>
+
+        <div>
+            <h2 class="question">Dehydrated?</h2>
+
+            
+                <div class="box"><a href="#" style="text-decoration: none;">No dehydration; a bottle of water lasts all day long </a></div><br>
+                <div class="box"><a href="#" style="text-decoration: none;">Mild thirst, but occasionally </a></div><br>
+                <div class="box"><a href="#" style="text-decoration: none;">Increased thirst and frequent dry mouth </a></div><br>
+                <div class="box"><a href="#" style="text-decoration: none;">Descreased urine output and more yellowish than normal </a></div><br>
+            
+
+            
+
+            <div>
+                <div class="previous"><a href="#index10" style="text-decoration: none;"><button>Previous</button></a></div>
+
+                <div class="next"><a href="#result-page" style="text-decoration: none;"><button>Next</button></a></div>
+            </div>
+
+            
+        </div>
+        <script>
+ 						var now = new Date();
+
+						var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+						var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+						var date = ((now.getDate()<10) ? "0" : "")+ now.getDate(); 
+						function fourdigits(number)	{
+							return (number < 1000) ? number + 1900 : number;
+						}	today =  days[now.getDay()] + ", " + months[now.getMonth()] + " " + date + ", " + (fourdigits(now.getYear())) ; document.write(today);
+					</script>
+    </div>
+
+
+
+
+
+
+
+
+
+<div class="bluepage" id="result-page" style="min-height: 130px;">
+        	<div>
+            	<h1 class="Appname" style="font-family:Chiller; font-size:50px">De-bowlar</h1>
+            	<img src="file://C:/Users/user/Desktop/web%20project/images.png">
+            </div>
+
+            <div>
+            	<p style='text-align: center; font-size: 20px'>Your result</p>
+            </div>
+            <br>
+            <br>
+            <br>
+
+            <div>
+        		<h3 style="font-family: Castellar; text-align: left; text-decoration: none"><a href="http://www.fromquarkstoquasars.com/wp-content/uploads/2014/08/ebola-facts.jpg">Important facts</a></h3>
+  
+   		 	<div class="facts">
+        
+            	<p>The Ebola virus is named from the Ebola River in Democratic Republic of Congo, where the first outbreaks occurred in 1976.</p>
+           	 	<p>You cannot get Ebola from air, water, or food. A person who has Ebola but has no symptoms cannot spread the disease, either.</p>
+            	<p>It is the world's most deadly virus and one of the most painful deaths possible.</p>
+            	<p>On average, Ebola virus symptoms begin about four to six days after contracting the disease, though incubation period can be as short as 2 days or as long as 21 days.</p>
+            	<p>Death is not absolutely certain: Ebola is not necessarily a death sentence (of course, it is not a walk in the park either).</p>
+       		 
+    		</div>
+             <div class="restart"><a href="#index1" style="text-decoration: none;"><button>Restart</button></a></div>
+            </div> 
+
+            </div>        
+
+
+    		
+
+            	
+      
+            <script>
+ 						var now = new Date();
+
+						var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+						var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+						var date = ((now.getDate()<10) ? "0" : "")+ now.getDate(); 
+						function fourdigits(number)	{
+							return (number < 1000) ? number + 1900 : number;
+						}	today =  days[now.getDay()] + ", " + months[now.getMonth()] + " " + date + ", " + (fourdigits(now.getYear())) ; document.write(today);
+					</script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="bluepage" data-role="page" id="disclaimer" style="min-height: 130px;">
+        <div>
+                <h1 class="Appname" style="font-family:Chiller ;font-size:60px">De-bowlar</h1>
+                <img src="file://C:/Users/user/Desktop/web%20project/images.png">
+        </div>
+        <div>
+            <h1 style="text-align: center; color: red" class="disclaimer-page"><strong>DISCLAIMER!!!</strong></h1>
+        </div>
+
+        <div>
+            <h4 style="text-align: center; font-size:20px">This app is not in anyway medically certified .</h4>
+            <p style="text-align: center; font-size:20px">Do <strong>NOT</strong> act on the outcome of the app!</p>
+            <p style="text-align: center; font-size:20px">The Ebola virus is a deadly virus and proper care must be taken to stay free from it. Please see your nearest professional health care facility if you or someone you know exhibits any of the symptoms. </p>
+        </div>
+        <div class="exit-disclaimer"><a href="#index1" data-transition="flip" style="font-size:20px"><button>Return to home page</button></a>
+        </div> 
+        <script>
+ 						var now = new Date();
+
+						var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+						var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+						var date = ((now.getDate()<10) ? "0" : "")+ now.getDate(); 
+						function fourdigits(number)	{
+							return (number < 1000) ? number + 1900 : number;
+						}	today =  days[now.getDay()] + ", " + months[now.getMonth()] + " " + date + ", " + (fourdigits(now.getYear())) ; document.write(today);
+					</script>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
