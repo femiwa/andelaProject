@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link type='text/css' rel='stylesheet' href='stylesheet.css' />
+	<script type='text/javascript' src='script.js'></script>
+
+		<title>My App</title>
+</head>
+
+<body>
+    <div class="bluepage" style="min-height: 130px">
+        <div>
+                <h1 class="Appname">De-bowlar</h1>
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT-tWRtmR9iY2pW3Khl-Tj0t6aZjTwGHd4Ag8BD0MAhhslvtNsR">
+        </div>
+        <div>
+            <h1 style="text-align: center; color: red" class="disclaimer-page"><strong>DISCLAIMER!!!</strong></h1>
+        </div>
+
+        <div>
+            <h4 style="text-align: center; font-size:30px">This app is not in anyway medically certified .</h4>
+            <p style="text-align: center; font-size:30px">Do <strong>NOT</strong> act on the outcome of the app!</p>
+            <p style="text-align: center; font-size:30px">The Ebola virus is a deadly virus and proper care must be taken to stay free from it. Please see your nearest professional health care facility if you or someone you know exhibits any of the symptoms. </p>
+        </div>
+        <div class="exit-disclaimer"><a style="font-size:20px" href="file:///C:/Users/user/Desktop/web%20project/index1.html"><button>Return to home page</button></a>
+        </div> 
+        
+        <script>
+                        var now = new Date();
+
+                        var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+                        var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+                        var date = ((now.getDate()<10) ? "0" : "")+ now.getDate(); 
+                        function fourdigits(number) {
+                            return (number < 1000) ? number + 1900 : number;
+                        }   today =  days[now.getDay()] + ", " + months[now.getMonth()] + " " + date + ", " + (fourdigits(now.getYear())) ; document.write(today);
+                    </script>
+	</div>
+</body>
+</html>
